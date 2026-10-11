@@ -17,6 +17,9 @@ pip install yolov5
 pip install opencv-python
 ```
 
+## 学習済みモデル
+物体検出のモデル（YOLOv5s）は、初回の実行時に `torch.hub` が [ultralytics/yolov5](https://github.com/ultralytics/yolov5) から自動でダウンロードします（インターネット接続が必要）。モデルとダウンロードされるコードは Ultralytics のもので、AGPL-3.0 で配布されています。このリポジトリの Apache-2.0 ライセンスは、このリポジトリのスクリプトだけに適用されます。
+
 ## 使用方法
 1. スクリプトを実行します。
 2. カメラを使うか画像をファイルを使うかを選択してください。物体検出が開始されます。
